@@ -1,11 +1,11 @@
 import mysql from 'mysql2'
 
 export const db = mysql.createConnection({
-    host:"localhost",
-    port: "3306",
+    host:"viaduct.proxy.rlwy.net",
+    port: "45380",
     user: "root",
-    password:"admin",
-    database: "semeando_campeoes"
+    password:"ldkBdBpMuMxSssiXlgJcgyVmvDknTzVb",
+    database: "railway"
 })
 
 db.connect((err) => {

@@ -12,10 +12,6 @@ app.use("/users", userRoutes)
 
 const port = process.env.PORT || 8080
 
-app.get('/', (res) => {
-    res.send('teste!!!');
-  })
-
 app.listen(port, () => {
     console.log(`Servidor rodando na porta: ${port}`)
 })

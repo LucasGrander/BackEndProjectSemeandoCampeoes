@@ -8,8 +8,8 @@ import { filterParticipantes } from '../controllers/filtersControllers.js'
 
 const router = express.Router()
 
-const emitter = new EventEmitter()
-emitter.setMaxListeners(20)
+// const emitter = new EventEmitter()
+// emitter.setMaxListeners(20)
 
 // ROTA PADRÃO
 router.get("/", getUsers)
